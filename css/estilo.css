@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  color: #676768;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 20px;
+}
+
+header { 
+  background-color: #03c9cf;
+}
+
+.topo {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-topo ul {
+  display: flex;
+}
+
+.link-topo a {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+.link-topo li a:hover {
+  background-color: white;
+  color: #03c9cf;
+  
+}
+
+.secao-principal {
+  background-image: url("../assets/recepcao.png");
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.secao-principal h1 {
+  width: 1024px;
+  margin: 0 auto;
+  color: white;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.titulo-paragrafo {
+  display: flex;
+  flex-direction: column;
+  width: 1024px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-paragrafo h2 {
+  padding-top: 50px;
+}
+
+.titulo-paragrafo p {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.foto-titulo-lista {
+  display: flex;
+  margin: 40px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-lista h3 {
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.titulo-lista ul {
+  margin-left: 40px;
+}
+
+.titulo-lista li {
+  list-style-type: disc;
+}
+
+.container-especialidade {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.galeria-fotos {
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-around;
+  
+}
+
+.galeria-fotos figure {
+  margin: 0 20px;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.galeria-fotos figure figcaption {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.container-botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.container-botao a {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 3px;
+  background-color: #03c9cf;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+.container-botao a:hover {
+  color: #104a4d;
+}
