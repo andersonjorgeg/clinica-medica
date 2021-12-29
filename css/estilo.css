@@ -3,12 +3,12 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  font-family: Source Sans Pro, sans-serif;
   box-sizing: border-box;
 }
 
 body {
   color: #676768;
-  font-family: Source Sans Pro, sans-serif;
   font-size: 20px;
 }
 
@@ -67,7 +67,8 @@ header {
   justify-content: center;
 }
 
-.titulo-paragrafo h2 {
+.titulo-paragrafo h2,
+.titulo-paragrafo h3 {
   padding-top: 50px;
 }
 
@@ -124,7 +125,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px 0;
+  margin-top: 50px;
 }
 
 .container-botao a {
@@ -138,4 +139,28 @@ header {
 
 .container-botao a:hover {
   color: #104a4d;
+}
+
+iframe {
+  margin-bottom: 70px;
+}
+
+footer {
+  background-color: #205067;
+}
+
+.rodape {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+.rodape p {
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 10px 0;
 }
