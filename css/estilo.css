@@ -16,6 +16,17 @@ header {
   background-color: #03c9cf;
 }
 
+.container {
+  width: 100%;
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
 .topo {
   width: 1024px;
   margin: 0 auto;
@@ -220,7 +231,7 @@ footer {
   }
 }
 
-/* de 0 até 425px*/
+/* até 425px*/
 @media (max-width: 425px) {
   body {
     font-size: 16px;

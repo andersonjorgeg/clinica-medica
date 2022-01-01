@@ -1,5 +1,5 @@
 .container {
-  width: 100%;
+  width: 1024px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -10,6 +10,7 @@
 
 .links {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin-bottom: 40px; 
@@ -58,4 +59,23 @@
 
 .img-tabela tr:nth-child(even) {
   background-color: #f2f2f2;
+}
+
+/* responsivo */
+@media (max-width: 768px) {
+  .container { 
+    width: 100%;
+  }
+
+  .links a {
+    margin-bottom: 10px;
+  }
+
+  .titulo-paragrafo p{
+    width: 100%;
+  }
+
+  .img-tabela img {
+    display: none;
+  }
 }
