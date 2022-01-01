@@ -59,6 +59,7 @@ header {
   font-size: 2.5em;
   text-transform: uppercase;
   font-weight: 400;
+  margin-left: 20px;
 }
 
 .titulo-paragrafo {
@@ -66,7 +67,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 20px
+  margin: 0 10px;
 }
 
 .titulo-paragrafo h2,
@@ -84,6 +85,10 @@ header {
   margin: 40px 0;
   align-items: center;
   justify-content: center;
+}
+
+.titulo-lista {
+  margin: 0 20px;
 }
 
 .titulo-lista h3 {
