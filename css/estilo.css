@@ -49,7 +49,7 @@ header {
 .secao-principal {
   background-image: url("../assets/recepcao.png");
   background-size: cover;
-  height: 90vh;
+  height: 500px;
   display: flex;
   align-items: center;
 }
@@ -78,6 +78,7 @@ header {
 .titulo-paragrafo p {
   padding: 20px 0;
   text-align: center;
+  width: 65%;
 }
 
 .foto-titulo-lista {
@@ -145,12 +146,9 @@ header {
   color: #104a4d;
 }
 
-iframe {
-  margin-bottom: 70px;
-}
-
 footer {
   background-color: #205067;
+  margin-top: 70px;
 }
 
 .rodape {
@@ -170,8 +168,60 @@ footer {
 }
 
 /* responsivo */
+
+/* até 1024px */
+@media (max-width: 1024px) {
+  .secao-principal {
+    height: 400px;
+  }
+  .topo {
+    width: 100%;
+  }
+  .topo img {
+    margin-left: 10px;
+  }
+  .principal {
+    width: 100%;
+  }
+  .secao-principal {
+    height: 300px;
+  }
+  .foto-titulo-lista img {
+    display: none;
+  }
+  .rodape {
+    width: 100%;
+  }
+}
+
+/* até 768px */
+@media (max-width: 768px) {
+  .topo {
+    width: 100%;
+  }
+  .topo img {
+    margin-left: 10px;
+  }
+  .principal {
+    width: 100%;
+  }
+  .secao-principal {
+    height: 300px;
+  }
+  .foto-titulo-lista img {
+    display: none;
+  }
+  .galeria-fotos figure {
+    width: calc(100% / 2 - 40px);
+    margin-bottom: 40px;
+  }
+  .rodape {
+    width: 100%;
+  }
+}
+
 /* de 0 até 425px*/
-@media only screen and (max-width: 425px) {
+@media (max-width: 425px) {
   body {
     font-size: 16px;
   }
@@ -209,29 +259,5 @@ footer {
   }
   .rodape {
     width: 100%;
-  }
-}
-
-/* de 425px até 768px */
-@media only screen and (min-width: 426px) and (max-width: 768px) {
-  .secao-principal {
-    height: 300px;
-  }
-  .foto-titulo-lista img {
-    display: none;
-  }
-}
-
-/* de 769px até 1024px */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .secao-principal {
-    height: 400px;
-  }
-}
-
-/* acima de 1025px */
-@media only screen and (min-width: 1025px) {
-  .secao-principal {
-    height: 500px;
   }
 }
