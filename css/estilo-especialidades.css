@@ -50,7 +50,7 @@
 }
 
 .img-tabela tr td{
-  padding: 0 10px;
+  padding: 20px 10px;
 }
 
 .img-tabela tr:nth-child(odd) {
@@ -62,6 +62,7 @@
 }
 
 /* responsivo */
+/* até 768px */
 @media (max-width: 768px) {
   .container { 
     width: 100%;
@@ -72,10 +73,27 @@
   }
 
   .titulo-paragrafo p{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .img-tabela table {
+    width: 95%;
+    margin: 0 auto;
   }
 
   .img-tabela img {
     display: none;
+  }
+}
+
+/* até 425px */
+@media (max-width: 425px) {
+  .img-tabela table {
+    width: 100%;
+  }
+
+  .titulo {
+    margin: 0px;
   }
 }
